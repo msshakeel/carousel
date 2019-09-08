@@ -1,0 +1,71 @@
+body {
+    height: 100%;
+}
+
+#carouselInner {
+    float: left;
+    width: 510px;
+    overflow: hidden;
+    background: #000000;
+}
+
+#carouselUL {
+    position: relative;
+    list-style-type: none;
+    /* left: -340px; */
+    left: -340px;
+    margin: 0px;
+    padding: 0px;
+    width: 1360px;
+    padding-bottom: 10px;
+}
+
+#carouselUL li {
+    float: left;
+    width: 160px;
+    height: 100px;
+    padding: 0px;
+    background: #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#scrollLeft {
+    height: 120px;
+    width: 50px;
+    float: left;
+}
+
+#scrollLeft button {
+    height: 100%;
+    width: 100%;
+}
+
+#scrollRight {
+    height: 120px;
+    width: 50px;
+    float: left;
+}
+
+#scrollRight button {
+    height: 100%;
+    width: 100%;
+}
+
+.photoModal {
+    display: none;
+    background: #FFFFFF;
+    color: #000000;
+    border: 20px solid #FFFFFF;
+    float: left;
+    font-size: 1.2em;
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    z-index: 200;
+}
